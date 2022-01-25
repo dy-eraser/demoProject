@@ -10,3 +10,8 @@ VALUES
 (4, 'comment4', 'seems like a good product!', true, '2021-11-26', 100),
 (5, 'comment5', 'seems like a good product!', true, '2021-11-25', 100),
 (6, 'comment6', 'seems like a good product!', true, '2021-11-24', 100);
+
+INSERT INTO role (name, caption)
+VALUES
+('ROLE_ADMIN', 'ادمین'),
+('ROLE_CUSTOMER', 'مشتری');
